@@ -4,7 +4,7 @@ function Navbar()
 {
     return(
         <div class="theme-main-menu theme-menu-one fixed">
-            <div class="logo"><a href="index.html"><img src="images/icon/paintbrush.png" alt="" /></a></div>
+            <div class="logo"><a href="index.html"><img src="images/logo/logo.png   " alt="" /></a></div>
             <nav id="mega-menu-holder" class="navbar navbar-expand-lg">
                 <div  class="container nav-container">
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

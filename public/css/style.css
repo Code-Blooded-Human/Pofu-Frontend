@@ -747,7 +747,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 #mega-menu-holder .img-box .img {
   display: block;
   overflow: hidden;
-  background: #000;
+  background: #fff;
   box-shadow: 0px 30px 70px 0px rgba(223, 227, 234, 0.5);
 }
 #mega-menu-holder .img-box .img img {width: 100%;}
@@ -766,12 +766,12 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
   left:0;
   z-index: 99;
   padding-top:65px;
-  background-color:var(--black-color);
+  background-color:#fff;
 }
 .theme-menu-one .logo {
   position: absolute;
   top:0px;
-  left:0;
+  left:30px;
   z-index: 3;
 }
 .theme-menu-one .logo a {display: block;}
@@ -786,7 +786,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 .theme-menu-one .header-right-widget>ul>li {display: inline-block;vertical-align: middle;}
 
 
-.theme-menu-one .header-right-widget .call-us {font-size: 20px;color: white; margin-right: 30px;}
+.theme-menu-one .header-right-widget .call-us {font-size: 20px;color: var(--offwhite-color); margin-right: 30px;}
 .theme-menu-one .header-right-widget .call-us a {font-size: 24px;margin-left: 15px; color:var(--gold-color)}
 /*----------------- SASS MENU ---------------------*/
 .theme-menu-one.d-align-item .navbar-nav .nav-item:hover .nav-link,
@@ -943,7 +943,7 @@ body .solid-button-one:hover,.navbar .navbar-toggler,.faq-tab-wrapper .faq-panel
 }
 .theme-main-menu.fixed {
   position: fixed !important;
-  background: var(--black-color);
+  background: #fff;
   box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
   animation: menu_sticky  0.60s ease-in-out;
 }

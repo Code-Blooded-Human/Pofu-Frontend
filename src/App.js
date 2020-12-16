@@ -11,7 +11,6 @@ function App() {
      <Banner />
      <AboutUsSection />
      <HowItWorks />
-  
     </div>
   );
 }
