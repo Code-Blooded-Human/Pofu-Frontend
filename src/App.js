@@ -1,17 +1,14 @@
-import Preloader from "./sections/Preloader.js"
-import Navbar from "./sections/Navbar.js"
-import Banner from "./sections/Banner.js"
-import HowItWorks from "./sections/HowItWorks.js"
-import AboutUsSection from "./sections/AboutUsSection.js"
+import HomePage from './pages/HomePage';
+import ListProduct from './pages/ListProduct'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
-    <div class="main-page-wrapper">
-     <Preloader />
-     <Navbar />
-     <Banner />
-     <AboutUsSection />
-     <HowItWorks />
-    </div>
+    <Router>
+    <Switch>
+      <Route path="/listProducts" component={ListProduct} />
+      <Route path="/" component={HomePage} />
+    </Switch>
+    </Router>
   );
 }
 
